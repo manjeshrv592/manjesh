@@ -1,21 +1,21 @@
-import ThemeToggler from '@/components/ThemeToggler';
-import React from 'react';
+import { Button } from '@/components/ui/button';
 
 const page = () => {
   return (
-    <>
-      <div className='flex justify-end p-5'>
-        <ThemeToggler />
+    <section className='flex min-h-screen justify-center'>
+      <div className='pt-48 text-center'>
+        <h1 className='h1 gradient-primary mb-3 bg-clip-text text-transparent'>
+          Next JS Developer
+        </h1>
+        <p className='mb-12 text-2xl'>Crafting Digital Experiences</p>
+        <div className='flex justify-center gap-8'>
+          <Button className='btn btn-outline btn-outline-secondary'>
+            My Projects
+          </Button>
+          <Button className='btn btn-primary'>Contact Me</Button>
+        </div>
       </div>
-      <div className=' p-4 text-center  '>
-        <h1 className=' text-4xl font-bold lg:text-6xl'>Hello Next.JS</h1>
-        <p className='mx-auto mt-5 max-w-[600px] text-lg leading-8'>
-          Next.JS, Shadcn/ui, Tailwind, ESLint and Prettier Boiler plate code
-          with Dark mode Toggler. Make sure you have installed &apos;Prettier -
-          Code formatter&apos; and &apos;ESLint&apos; in your VS-Code.
-        </p>
-      </div>
-    </>
+    </section>
   );
 };
 

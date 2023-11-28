@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body
         className={cn(
-          'min-h-screen bg-background font-sans antialiased dark:bg-slate-900 dark:text-slate-100',
+          'min-h-screen font-sans antialiased bg-dark text-mj-grey-200',
           fontSans.variable
         )}>
         <ThemeProvider>{children}</ThemeProvider>

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .h1 {
+    @apply text-6xl font-bold;
+  }
+
+  .gradient-primary {
+    @apply bg-gradient-to-b from-mj-blue-300 to-mj-blue-500;
+  }
+
+  .btn {
+    @apply !rounded-full font-medium !text-lg !px-9 !py-7 !box-border !duration-300;
+  }
+
+  .btn-primary {
+    @apply bg-gradient-to-b from-mj-blue-400 to-mj-blue-600  !text-mj-blue-100;
+  }
+
+  .btn-outline {
+    @apply !bg-transparent;
+  }
+
+  .btn-outline-secondary {
+    @apply !text-mj-blue-200 shadow-[0_0_0_2.5px_rgba(210,207,250,1)_inset] hover:!bg-mj-blue-200 hover:!text-mj-grey-800;
+  }
+}
