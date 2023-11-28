@@ -1,4 +1,4 @@
-Next.JS, Shadcn/ui, Tailwind, ESLint and Prettier Boiler plate code with Dark mode Toggler.
+My portfolio website
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
