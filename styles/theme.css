@@ -3,20 +3,40 @@
 @tailwind utilities;
 
 @layer utilities {
+  /* Typography */
   .h1 {
-    @apply text-6xl font-bold;
+    @apply text-5xl md:text-6xl font-bold;
   }
 
+  /* Gradients */
   .gradient-primary {
     @apply bg-gradient-to-b from-mj-blue-300 to-mj-blue-500;
   }
 
+  /**************************************/
+  /* Components */
+  /**************************************/
+
+  /* Container */
+  .container {
+    @apply px-5 mx-auto max-w-full sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1320px];
+  }
+
+  /* Buttons */
   .btn {
-    @apply !rounded-full font-medium !text-lg !px-9 !py-7 !box-border !duration-300;
+    @apply !p-6  !rounded-full font-medium !text-lg md:!px-9 md:!py-7 !box-border !duration-300;
+  }
+
+  .btn-sm {
+    @apply !text-base !p-4;
   }
 
   .btn-primary {
     @apply bg-gradient-to-b from-mj-blue-400 to-mj-blue-600  !text-mj-blue-100;
+  }
+
+  .btn-warning {
+    @apply bg-gradient-to-b from-mj-orange-400 to-mj-orange-600  !text-mj-orange-900  hover:after:!opacity-5 active:after:!opacity-10;
   }
 
   .btn-outline {
@@ -24,6 +44,10 @@
   }
 
   .btn-outline-secondary {
-    @apply !text-mj-blue-200 shadow-[0_0_0_2.5px_rgba(210,207,250,1)_inset] hover:!bg-mj-blue-200 hover:!text-mj-grey-800;
+    @apply !text-mj-blue-200 shadow-[0_0_0_2.5px_rgba(210,207,250,1)_inset] hover:!bg-mj-blue-200 hover:!text-mj-grey-800 active:!bg-mj-blue-300 active:shadow-mj-blue-300;
+  }
+
+  .btn-pseudo {
+    @apply relative after:absolute after:content-[''] after:block after:w-full after:h-full after:bg-black after:top-0 after:left-0 overflow-hidden isolate after:z-[-10] after:opacity-0 hover:after:opacity-20 after:duration-300 active:after:opacity-40;
   }
 }
