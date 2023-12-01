@@ -7,7 +7,7 @@ const page = () => {
       <Header />
       <main>
         <section className='flex min-h-screen justify-center'>
-          <div className='pt-32 text-center xl:pt-48'>
+          <div className='pt-40 text-center xl:pt-56'>
             <div className='mb-2 flex justify-center gap-5 text-mj-grey-400'>
               <span>Next.js</span>
               <span>|</span>

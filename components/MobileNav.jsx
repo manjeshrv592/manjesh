@@ -22,7 +22,7 @@ const MobileNav = () => {
         }`}
         onClick={() => setIsOpen(false)}>
         <div
-          className={`absolute left-[50%] top-[50%] flex h-[80%] w-[80%] translate-x-[-50%] flex-col gap-10 rounded-2xl bg-mj-grey-900 duration-1000 ${
+          className={`absolute left-[50%] top-[50%] flex h-[80%] w-[80%] translate-x-[-50%] flex-col gap-10 rounded-2xl bg-mj-grey-900 duration-500 ${
             isOpen
               ? 'translate-y-[-50%] opacity-100'
               : 'translate-y-[-30%] opacity-0'
