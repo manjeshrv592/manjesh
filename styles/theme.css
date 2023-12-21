@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer utilities {
+  /* Layouts */
+  .section-padding {
+    @apply p-8 md:p-12 lg:p-16;
+  }
+
   /* Typography */
   .h1 {
     @apply text-5xl md:text-6xl font-bold;
