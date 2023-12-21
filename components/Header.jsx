@@ -10,12 +10,11 @@ const Header = () => {
         <div className='flex items-center justify-between'>
           <Link href='/'>
             <Image
-              className='md:w-14'
+              className='md:w-12'
               src='/assets/logos/my-logo.svg'
               alt='Manjesh logo'
-              width={40}
-              height={40}
-              sizes='32px, (min-width: 768px) 64px'
+              width={32}
+              height={32}
             />
           </Link>
           <DesktopNav />
