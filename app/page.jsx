@@ -1,4 +1,3 @@
-import Blog from '@/components/sections/Blog';
 import Contact from '@/components/sections/Contact';
 import Hero from '@/components/sections/Hero';
 import Projects from '@/components/sections/Projects';
@@ -9,7 +8,6 @@ const page = () => {
       <main>
         <Hero />
         <Projects />
-        <Blog />
         <Contact />
       </main>
     </>

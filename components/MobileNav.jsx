@@ -55,7 +55,7 @@ const MobileNav = () => {
                   className='relative text-mj-grey-300 after:absolute
               after:bottom-0 after:left-[50%] after:inline-block after:h-[6px] after:w-[6px] after:translate-x-[-50%] after:translate-y-0 after:rounded-full after:bg-current after:opacity-0 after:duration-300 after:content-[""] hover:after:translate-y-2 hover:after:opacity-100'
                   href='/'>
-                  Blog
+                  Contact Me
                 </Link>
               </li>
               <li>
@@ -63,7 +63,7 @@ const MobileNav = () => {
                   className='relative text-mj-grey-300 after:absolute
               after:bottom-0 after:left-[50%] after:inline-block after:h-[6px] after:w-[6px] after:translate-x-[-50%] after:translate-y-0 after:rounded-full after:bg-current after:opacity-0 after:duration-300 after:content-[""] hover:after:translate-y-2 hover:after:opacity-100'
                   href='/'>
-                  Contact Me
+                  Blog
                 </Link>
               </li>
               <li>

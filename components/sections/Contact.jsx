@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section className='section-padding'>
+    <section className='section-padding min-h-screen'>
       <div className='container'>Contact section</div>
     </section>
   );

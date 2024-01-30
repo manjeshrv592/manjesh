@@ -10,3 +10,7 @@
       brightness(104%) contrast(106%) !important;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
