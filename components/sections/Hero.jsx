@@ -6,6 +6,8 @@ const Hero = () => {
       <div className='pt-40 text-center xl:pt-56'>
         <div className='mb-2 flex justify-center gap-5 text-mj-grey-400'>
           <span>Next.js</span>
+          <span>|</span>
+          <span>MongoDB</span>
         </div>
         <h1 className='h1 mb-3 flex flex-col gap-1 sm:flex-row sm:gap-3'>
           <span className='gradient-primary bg-clip-text text-transparent'>
